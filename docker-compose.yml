@@ -1,0 +1,7 @@
+version: '3'
+services:
+  puppeteer:
+    build: .
+    working_dir: "/opt/data-volume"
+    volumes:
+    - .:/opt/data-volume
