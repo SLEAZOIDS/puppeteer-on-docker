@@ -5,3 +5,5 @@ services:
     working_dir: "/opt/data-volume"
     volumes:
     - .:/opt/data-volume
+    - ./script.js:/app/script.js
+

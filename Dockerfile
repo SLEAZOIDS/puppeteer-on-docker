@@ -1,4 +1,4 @@
-FROM node:8.4.0
+FROM node:9.10.0
 
 RUN apt-get update \
  && apt-get install -y \
@@ -43,7 +43,5 @@ RUN apt-get update \
 
 WORKDIR /app
 RUN npm i puppeteer
-
-COPY ./script.js .
 
 ENTRYPOINT ["node", "/app/script.js"]
