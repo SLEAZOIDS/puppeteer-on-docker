@@ -35,6 +35,8 @@ RUN apt-get update \
       libxtst6 \
       ca-certificates \
       fonts-liberation \
+      fonts-ipafont \
+      fonts-ipaexfont \
       libappindicator1 \
       libnss3 \
       lsb-release \
