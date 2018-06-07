@@ -41,9 +41,10 @@ RUN apt-get update \
       libnss3 \
       lsb-release \
       xdg-utils \
-      wget
+      wget \
+  && npm install config
 
 WORKDIR /app
 RUN npm i puppeteer
 
-ENTRYPOINT ["node", "/app/script.js"]
+CMD bash /app/start.sh

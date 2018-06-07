@@ -6,4 +6,4 @@ services:
     volumes:
     - .:/opt/data-volume
     - ./script.js:/app/script.js
-
+    - ./start.sh:/app/start.sh
