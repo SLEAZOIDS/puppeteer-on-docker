@@ -42,9 +42,8 @@ RUN apt-get update \
       lsb-release \
       xdg-utils \
       wget \
-  && npm install config
+  && npm i config puppeteer
 
 WORKDIR /app
-RUN npm i puppeteer
 
 CMD bash /app/start.sh
