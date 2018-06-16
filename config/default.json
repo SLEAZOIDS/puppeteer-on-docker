@@ -2,6 +2,7 @@
   "message": "This is a default config",
   "basic_auth_user": "user",
   "basic_auth_password": "password",
-  "url": "https://example.com/"
-
+  "url": "https://example.com/",
+  "login_user": "user",
+  "login_password": "password"
 }
